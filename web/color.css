@@ -1,0 +1,9 @@
+body{
+    width: 900PX;
+    margin: auto;
+    background-color: buttonface;
+    border: dotted;
+    animation: alternate;
+    box-shadow: appworkspace;
+   
+}
