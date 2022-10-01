@@ -14,7 +14,7 @@
             <title>Consulta por Centro de Servicio</title>
         </head>
         <body>
-            <h1>Consula por Centro de Servicio(Hospital,Clinica o Centro de Salud)</h1>
+            <h1>Consulta por Centro de Servicio(Hospital,Clinica o Centro de Salud)</h1>
             <p>
                 <%@page   import="logica.Pacientes"%>
                 <%@page   import="logica.Doctores"%>

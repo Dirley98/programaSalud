@@ -15,7 +15,7 @@
         <title>Consulta por Doctor</title>
     </head>
     <body>
-        <h1>Consula por Doctor</h1>
+        <h1>Consulta por Doctor</h1>
         <p>
         <%@page   import="logica.Pacientes"%>
         <%@page   import="logica.Doctores"%>
