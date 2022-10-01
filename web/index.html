@@ -6,50 +6,61 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="color.css" rel="stylesheet" type="text/css"/>
     </head>
-    
+
     <body>
     <center>
+<br></br>
         <h1 > <font face="arial">Bienvenido con su asistente para consultar: Centros de Servicio, Doctores y Pacientes.</font></h1>
-       <img src="doctor-cruzando-brazos-mientras-sostiene-estetoscopio-bata-blanca_176474-8491.jpg" alt=""/>
-       <p > Este programa fue diseñado por DIRLEY ROCIO PUENTES DIAZ</p>
-       <p>Oprima el boton "ok" para iniciar la consulta </p>
-      
-       
-        <div>Consultar por Paciente: </div>
-        <form action="porPaciente.jsp" method="POST" >
-            <select name="select">
-                <option value="----" selected> ------</option>
-                <option value="Juan">Juan Castro</option>
-                <option value="Caterine">Caterine Rodriguez</option>
-                <option value="Camilo">Camilo Medina</option>
-                <option value="Yeimi">Yeimi Avila</option>
-                <option value="Fabian">Fabian Gonzalez</option>
-                <option value="Claudia">Claudia Sierra</option>
-            </select>
-            <input type="submit" value="Ok">
-        </form>
+        <br></br>
         
-        <div>Consultar por Doctor: </div>
+        <form action="porPaciente.jsp" method="POST">
+            <p>
+                Consultar por Paciente:
+                <select name="select">
+            </p>
+            <option value="----" selected> ------</option>
+            <option value="Juan">Juan Castro</option>
+            <option value="Caterine">Caterine Rodriguez</option>
+            <option value="Camilo">Camilo Medina</option>
+            <option value="Yeimi">Yeimi Avila</option>
+            <option value="Fabian">Fabian Gonzalez</option>
+            <option value="Claudia">Claudia Sierra</option>
+            </select>
+                <input type="submit" value="Ok"style='width:40px; height:27px'>
+        </form>
+        <br></br>
+        <br></br>
         <form action="porDoctor.jsp" method="POST" >
-            <select name="select1">
-                <option value="----" selected> ------</option>
-                <option value="Doctor 1">Dr Olvar Salinas</option>
-                <option value="Doctor 2">Dr Maria Gutierrez</option>
-                <option value="Doctor 3">Dr Lucia Franco</option>
+            <p>
+                Consultar por Doctor: 
+                <select name="select1">
+            </p>
+            <option value="----" selected> ------</option>
+            <option value="Doctor 1">Dr Olvar Salinas</option>
+            <option value="Doctor 2">Dr Maria Gutierrez</option>
+            <option value="Doctor 3">Dr Lucia Franco</option>
             </select>
-            <input type="submit" value="Ok">
+            <input type="submit" value="Ok" style='width:40px; height:27px'>
+
         </form>
-        
-        <div>Consultar por Centro de Servicio(Hospital,Clinica o Centro de Salud): </div>
+
+        <br></br>
+        <br></br>
         <form action="porServicio.jsp" method="POST" >
-            <select name="select2">
-                <option value="----" selected> ------</option>
-                <option value="Hospital">Hospital San Rafael</option>
-                <option value="Clinica">Clinica MediFaca</option>
-                <option value="CentroDeSalud">Centro de Salud Los Molinos</option>
+            <p>
+                Consultar por Centro de Servicio:
+                <select name="select2">
+            </p>
+            <option value="----" selected> ------</option>
+            <option value="Hospital">Hospital San Rafael</option>
+            <option value="Clinica">Clinica MediFaca</option>
+            <option value="CentroDeSalud">Centro de Salud Los Molinos</option>
             </select>
-            <input type="submit" value="Ok">
+            <input type="submit" value="Ok" style='width:40px; height:27px'>
         </form>
-        </center>
-    </body>
+    </center>
+
+    <br></br>
+    <h5>Este programa fue diseñado por DIRLEY ROCIO PUENTES DIAZ</h5>
+</body>
 </html>

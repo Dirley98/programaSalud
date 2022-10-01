@@ -16,7 +16,7 @@
     </head>
     <body>
         <h1>Consula por Doctor</h1>
-
+        <p>
         <%@page   import="logica.Pacientes"%>
         <%@page   import="logica.Doctores"%>
         <%@page   import="logica.Servicios"%>
@@ -25,7 +25,7 @@
            Logica lo=new Logica();
            out.println(lo.doctor(request.getParameter("select1"))); 
         %>
-
+</p>
     </body>
     </center>
 </html>
